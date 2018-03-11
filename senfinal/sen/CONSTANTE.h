@@ -1,0 +1,17 @@
+#ifndef DEF_CONSTANTES
+#define DEF_CONSTANTES
+
+#define TAILLE_BLOC 30
+#define HAUTEUR_TAB 42
+#define LARGEUR_TAB 24
+#define LARGEUR_FENETRE LARGEUR_TAB * TAILLE_BLOC
+#define HAUTEUR_FENETRE HAUTEUR_TAB * TAILLE_BLOC
+#define MARGE 0
+#define IA 1
+#define PARTICULE 2
+#define OBSTACLE 3
+#define VIDE 4
+#define TEMPETE 5
+enum {HAUT, BAS, GAUCHE, DROITE};
+
+#endif
